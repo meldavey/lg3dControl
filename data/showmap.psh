@@ -1,0 +1,15 @@
+//-----------------------------------------------------------------------------
+// Shader for visualizing shadow map
+//-----------------------------------------------------------------------------
+
+ps.2.0
+
+dcl t0.xy
+dcl_2d s0
+
+// Sample shadow map
+texld r0, t0, s0
+
+// Output shadow map 
+mov r0, r0.x
+mov oC0, r0

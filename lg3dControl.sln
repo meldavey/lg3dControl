@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual C++ Express 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lg3dControl", "lg3dControl\lg3dControl.vcproj", "{42F348A2-32B6-4453-BF46-5B5DE3B1FD61}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lg3dControlLib", "lg3dControlLib\lg3dControlLib.vcproj", "{9DB31B13-E5F6-4A10-9330-EDA01EDB7FDF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lg3dControlDll", "lg3dControlDll\lg3dControlDll.vcproj", "{C0916E31-2845-47C9-A3DE-26DE177F509A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42F348A2-32B6-4453-BF46-5B5DE3B1FD61}.Debug|Win32.ActiveCfg = Debug|Win32
+		{42F348A2-32B6-4453-BF46-5B5DE3B1FD61}.Debug|Win32.Build.0 = Debug|Win32
+		{42F348A2-32B6-4453-BF46-5B5DE3B1FD61}.Release|Win32.ActiveCfg = Release|Win32
+		{42F348A2-32B6-4453-BF46-5B5DE3B1FD61}.Release|Win32.Build.0 = Release|Win32
+		{9DB31B13-E5F6-4A10-9330-EDA01EDB7FDF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9DB31B13-E5F6-4A10-9330-EDA01EDB7FDF}.Debug|Win32.Build.0 = Debug|Win32
+		{9DB31B13-E5F6-4A10-9330-EDA01EDB7FDF}.Release|Win32.ActiveCfg = Release|Win32
+		{9DB31B13-E5F6-4A10-9330-EDA01EDB7FDF}.Release|Win32.Build.0 = Release|Win32
+		{C0916E31-2845-47C9-A3DE-26DE177F509A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C0916E31-2845-47C9-A3DE-26DE177F509A}.Debug|Win32.Build.0 = Debug|Win32
+		{C0916E31-2845-47C9-A3DE-26DE177F509A}.Release|Win32.ActiveCfg = Release|Win32
+		{C0916E31-2845-47C9-A3DE-26DE177F509A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
